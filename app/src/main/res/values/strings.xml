@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <!--Network Exceptions-->
+    <string name="network_error">Unexpected network error occurred. Please try again.</string>
+    <string name="unreachable_server">Servers are unreachable. Please try again later.</string>
+    <string name="unreachable_server_internet_error">Cannot reach server. Please check your internet connection.</string>
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <!--Screen names-->
+    <string name="main_screen">@string/app_name</string>
+    <string name="weather_forecast">Weather Forecast</string>
+    <string name="current_weather">Current Weather</string>
+
+    <!--Notifications-->
+    <string name="weather_city_error">Cannot fetch current weather for %s</string>
+    <string name="city_search_hint_text">City names (CSV)</string>
+    <string name="cities_min_error">Please enter at least three unique cities in CSV</string>
+    <string name="cities_max_error">You can enter at most seven cities</string>
+    <string name="weather_city_no_internet">No internet. Cannot found results for %s</string>
+    <string name="weather_city_not_found">%s not found. Please enter valid city name.</string>
+    <string name="play_service_error">Play services not found. Cannot continue.</string>
+    <string name="device_error_location">Device error. Cannot continue.</string>
+    <string name="location_permission_required">Current location access is required to fetch weather conditions.</string>
+    <string name="retry">Retry</string>
+    <string name="no_data_found">No data found</string>
+
+    <!--Date and time-->
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <!--Weather data-->
+
+    <string name="current_condition">Current Condition</string>
+    <string name="sunrise">Sunrise - %1$s</string>
+    <string name="sunset">Sunset - %1$s</string>
+    <string name="feels_like">Feels Like - %1$s</string>
+    <string name="max_temp">Max Temp - %1$s</string>
+    <string name="min_temp">Min Temp - %1$s</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="wind_degree">Wind Degree</string>
+    <string name="humidity">Humidity</string>
+    <string name="atmospheric_pressure">Atmospheric Pressure</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="unavailable">Unavailable</string>
+
+    <string name="degree">Degree</string>
+
+</resources>
